@@ -1,0 +1,14 @@
+# Exclude sensitive data & secret keys
+*.json
+*.key
+.env
+
+# Exclude Python environments and cache
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# IDE settings
+.vscode/
+.DS_Store
